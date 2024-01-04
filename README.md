@@ -7,6 +7,7 @@ Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario mu
 ![pyramids](https://github.com/cmartinezal/Super-Mario-Pyramids/assets/84383847/89234664-dd7f-4274-8b99-5950ed430272)
 
 Implement a program in C that recreates that pyramid, using hashes (#) for bricks, as in the below:
+
 ```sh
    #  #
   ##  ##
@@ -30,6 +31,7 @@ Height: 8
 ```
 
 If the user doesn’t, in fact, input a positive integer between 1 and 8, inclusive, when prompted, the program should re-prompt the user until they cooperate:
+
 ```sh
 $ ./mario
 Height: -1
@@ -44,3 +46,19 @@ Height: 4
 ```
 
 Notice that width of the “gap” between adjacent pyramids is equal to the width of two hashes, irrespective of the pyramids’ heights.
+
+## Getting Started
+Let's start to use this project.
+
+## Prerequisites
+
+A compiler for C must be installed
+
+## Installation
+
+To execute the project open the terminal and go to the project folder. Then compile the code with a C compiler and execute the file generated:
+
+```sh
+make mario
+./mario
+```
