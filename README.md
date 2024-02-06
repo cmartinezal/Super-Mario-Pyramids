@@ -1,5 +1,5 @@
 # Super-Mario-Pyramids
-A program in C that recreates adjacent pyramids of blocks, using hashes (#) for bricks
+A program that recreates adjacent pyramids of blocks, using hashes (#) for bricks
 
 ## Problem description
 Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario must hop over adjacent pyramids of blocks, per the below.
@@ -52,7 +52,7 @@ Let's start to use this project.
 
 ## Prerequisites
 
-A compiler for C must be installed
+A compiler for C must be installed. Python 3 must be installed.
 
 ## Installation
 
@@ -61,4 +61,10 @@ To execute the project open the terminal and go to the project folder. Then comp
 ```sh
 make mario
 ./mario
+```
+
+To execute with Python use this command:
+
+```sh
+python3 mario.py
 ```
